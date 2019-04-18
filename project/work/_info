@@ -8,67 +8,130 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/siddi/vlsi/project_ECE758/library
-Etrail
-w1555624413
+Epacket_divider
+w1555626780
 Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z1 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z2 DPx5 mylib 5 gates 0 22 4gcJbLC:U8UEl045THD^S0
-Z3 dC:/Users/siddi/vlsi/project_ECE758/project
-Z4 8C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd
-Z5 FC:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd
+Z2 dC:/Users/siddi/vlsi/project_ECE758/project
+Z3 8C:/Users/siddi/vlsi/project_ECE758/project/packet_entity.vhd
+Z4 FC:/Users/siddi/vlsi/project_ECE758/project/packet_entity.vhd
 l0
-L7
-VTE<T6]75SQcdMX4YWBVb82
-!s100 67F`LiOl]LK7okM5B>FDN3
-Z6 OP;C;10.4a;61
+L5
+VVzoCknO:caGJDX[[c3:Gm2
+!s100 aM0]:lD`<jP2VUDA?1BY]1
+Z5 OP;C;10.4a;61
 32
-!s110 1555624437
+Z6 !s110 1555628974
 !i10b 1
-!s108 1555624437.000000
-Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd|
-!s107 C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd|
+Z7 !s108 1555628974.000000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/project/packet_entity.vhd|
+Z9 !s107 C:/Users/siddi/vlsi/project_ECE758/project/packet_entity.vhd|
 !i113 1
-Z8 o-work work -2002 -explicit -O0
-Z9 tExplicit 1
-Etrial
-Z10 w1555624517
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+Apacket_divider_arch
+Z12 w1555628972
+Z13 DEx4 work 14 packet_divider 0 22 VzoCknO:caGJDX[[c3:Gm2
+R0
+R1
+Z14 8C:/Users/siddi/vlsi/project_ECE758/project/packet_divider_arch.vhd
+Z15 FC:/Users/siddi/vlsi/project_ECE758/project/packet_divider_arch.vhd
+l6
+L5
+Z16 V[<J@NWjX1O<WSBkG62PG]2
+Z17 !s100 27MO:hOg6@zmWjNAOTMj;1
+R5
+32
+!s110 1555628977
+!i10b 1
+!s108 1555628977.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/project/packet_divider_arch.vhd|
+!s107 C:/Users/siddi/vlsi/project_ECE758/project/packet_divider_arch.vhd|
+!i113 1
+R10
+R11
+Epacket_ent
+w1555625989
 R0
 R1
 R2
 R3
 R4
+l0
+L4
+VlN3Gi?9FD8V:bZ[lmdIgS1
+!s100 RQ75A[H<eLe39h<[;JUFd2
 R5
+32
+!s110 1555625992
+!i10b 1
+!s108 1555625992.000000
+R8
+R9
+!i113 1
+R10
+R11
+Etrail
+w1555624413
+R0
+R1
+Z19 DPx5 mylib 5 gates 0 22 4gcJbLC:U8UEl045THD^S0
+R2
+Z20 8C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd
+Z21 FC:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd
+l0
+L7
+VTE<T6]75SQcdMX4YWBVb82
+!s100 67F`LiOl]LK7okM5B>FDN3
+R5
+32
+!s110 1555624437
+!i10b 1
+!s108 1555624437.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd|
+Z23 !s107 C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd|
+!i113 1
+R10
+R11
+Etrial
+Z24 w1555624517
+R0
+R1
+R19
+R2
+R20
+R21
 l0
 L7
 V:;j5:Q18TAVlFzcY;]d>d0
 !s100 ^SU0EJ`Ika2l=;aSZ8fE=2
-R6
+R5
 32
-Z11 !s110 1555624518
+R6
 !i10b 1
-Z12 !s108 1555624518.000000
 R7
-Z13 !s107 C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd|
+R22
+R23
 !i113 1
-R8
-R9
+R10
+R11
 Atrial_arch
 DEx5 mylib 9 gates_ent 0 22 Wdfolzj?@Z9nIOAY6SHL]0
 R0
 R1
-R2
+R19
 DEx4 work 5 trial 0 22 :;j5:Q18TAVlFzcY;]d>d0
 l14
 L12
 V0ENclQ>`i3z_WE6KfWmQI2
 !s100 mW1O3VRPNIZRcllQ@EZj73
-R6
+R5
 32
-R11
+R6
 !i10b 1
-R12
 R7
-R13
+R22
+R23
 !i113 1
-R8
-R9
+R10
+R11
