@@ -1,0 +1,220 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/siddi/vlsi/project_ECE758/library
+Pgates
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+w1555623153
+R0
+8C:/Users/siddi/vlsi/project_ECE758/library/gates_package.vhd
+FC:/Users/siddi/vlsi/project_ECE758/library/gates_package.vhd
+l0
+L3
+V4gcJbLC:U8UEl045THD^S0
+!s100 2DnfW]BlJYn6hCBY:Ld6_0
+Z3 OP;C;10.4a;61
+32
+Z4 !s110 1555623221
+!i10b 1
+Z5 !s108 1555623221.000000
+!s90 -reportprogress|300|-work|mylib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/gates_package.vhd|
+!s107 C:/Users/siddi/vlsi/project_ECE758/library/gates_package.vhd|
+!i113 1
+Z6 o-work mylib -2002 -explicit -O0
+Z7 tExplicit 1
+Egates_ent
+Z8 w1555622381
+R1
+R2
+R0
+Z9 8C:/Users/siddi/vlsi/project_ECE758/library/gates_entity.vhd
+Z10 FC:/Users/siddi/vlsi/project_ECE758/library/gates_entity.vhd
+l0
+L6
+VWdfolzj?@Z9nIOAY6SHL]0
+!s100 lFhZmBl5lbCMLNJ7NUg>;1
+R3
+32
+R4
+!i10b 1
+R5
+Z11 !s90 -reportprogress|300|-work|mylib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/gates_entity.vhd|
+Z12 !s107 C:/Users/siddi/vlsi/project_ECE758/library/gates_entity.vhd|
+!i113 1
+R6
+R7
+Axnor_arch
+Z13 w1555623081
+R1
+R2
+Z14 DEx4 work 9 gates_ent 0 22 Wdfolzj?@Z9nIOAY6SHL]0
+Z15 8C:/Users/siddi/vlsi/project_ECE758/library/gates_architecture.vhd
+Z16 FC:/Users/siddi/vlsi/project_ECE758/library/gates_architecture.vhd
+l55
+L54
+VmKDnz<7=hDI`HNU<G<hQ30
+!s100 T@4^LOTPd<fNPJO@InITW3
+R3
+32
+R4
+!i10b 1
+R5
+Z17 !s90 -reportprogress|300|-work|mylib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/gates_architecture.vhd|
+Z18 !s107 C:/Users/siddi/vlsi/project_ECE758/library/gates_architecture.vhd|
+!i113 1
+R6
+R7
+Axor_arch
+R13
+R1
+R2
+R14
+R15
+R16
+l45
+L44
+VhZLZb9=o1QZ>c4m>[S=R`0
+!s100 >=Zg^O5okLJfLNo5HVJU`1
+R3
+32
+R4
+!i10b 1
+R5
+R17
+R18
+!i113 1
+R6
+R7
+Anor_arch
+R13
+R1
+R2
+R14
+R15
+R16
+l35
+L34
+VfA:0bOzUR@cPah>D3JG>W3
+!s100 g_o<=__?B9Fej_6LzPSAj2
+R3
+32
+R4
+!i10b 1
+R5
+R17
+R18
+!i113 1
+R6
+R7
+Anand_arch
+R13
+R1
+R2
+R14
+R15
+R16
+l25
+L24
+VK3f[3c0;LS^_NC>h3>^Tc1
+!s100 YZk]IXL`F@MCC9OzoX7:m2
+R3
+32
+R4
+!i10b 1
+R5
+R17
+R18
+!i113 1
+R6
+R7
+Aor_arch
+R13
+R1
+R2
+R14
+R15
+R16
+l15
+L14
+VC<C2@_Ied9E_:k6T9C::G1
+!s100 19k@PNiM>:cVWOVD[]Q?o3
+R3
+32
+R4
+!i10b 1
+R5
+R17
+R18
+!i113 1
+R6
+R7
+Aand_arch
+R13
+R14
+R1
+R2
+R15
+R16
+l5
+L4
+VjOz=[5bTVlG@d>QCVKoPL2
+!s100 f2T5M>_Xgz5DAM4o^TSN:1
+R3
+32
+R4
+!i10b 1
+R5
+R17
+R18
+!i113 1
+R6
+R7
+Enot_gate
+R8
+R1
+R2
+R0
+R9
+R10
+l0
+L18
+VE:^o[8AkE^a7H;G9U>PIm3
+!s100 ?L6]PPUgUgLac;IO:Zi4R3
+R3
+32
+R4
+!i10b 1
+R5
+R11
+R12
+!i113 1
+R6
+R7
+Anot_arch
+R13
+R1
+R2
+DEx4 work 8 not_gate 0 22 E:^o[8AkE^a7H;G9U>PIm3
+R15
+R16
+l65
+L64
+Vj8lmHiE6h;DjV7Hjd]1Zl0
+!s100 f;T57h6Ya?6h:[>1P]4YF2
+R3
+32
+R4
+!i10b 1
+R5
+R17
+R18
+!i113 1
+R6
+R7
