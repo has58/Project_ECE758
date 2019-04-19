@@ -2,7 +2,7 @@
 -- date : 4/18/2019
 -- time 4:12:00 PM
 -- gates_package.vhd
--- Contain all the component of the deferent gates
+-- Contain all the component of the different gates
 library IEEE;
 use ieee.std_logic_1164.ALL;
 package gates is
@@ -40,5 +40,11 @@ package gates is
 		generic (delay : time ; N : integer);
 		port ( A : in std_logic_vector( N-1 downto 0);
 			O : out std_logic_vector(N-1 downto 0));
+	end component;
+	component ff is
+	generic (tprop : time := 8 ns; tsp : time := 2 ns; N : integer := 8);
+	port (  D   : in std_logic_vector( N-1 downto 0);
+		Q,QN   : out std_logic_vector( N-1 downto 0);
+		clk,en : in bit);
 	end component;
 end package;

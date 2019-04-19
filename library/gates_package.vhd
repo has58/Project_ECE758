@@ -41,4 +41,10 @@ package gates is
 		port ( A : in std_logic_vector( N-1 downto 0);
 			O : out std_logic_vector(N-1 downto 0));
 	end component;
+	component ff is
+	generic (tprop : time; tsp : time; N : integer);
+	port (  D   : in std_logic_vector( N-1 downto 0);
+		Q,QN   : out std_logic_vector( N-1 downto 0);
+		clk,en : in bit);
+	end component;
 end package;

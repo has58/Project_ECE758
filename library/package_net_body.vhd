@@ -14,14 +14,7 @@ package body networking is
 				variable sym_num : inout integer;
 				signal sym1, sym2 : out symbol) is
 		begin
-			if (sym_num < 8) then
 				sym1 <= pac1(sym_num);
 				sym2 <= pac2(sym_num);
-			else 
-				sym_num := 0;
-				sym1 <= pac1(sym_num);
-				sym2 <= pac2(sym_num);
-			end if;
-				sym_num := sym_num + 1;
 		end pack_sym;
 end package body networking;
