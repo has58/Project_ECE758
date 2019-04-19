@@ -22,9 +22,9 @@ V>6H@HSeNIUL157ij7Am8Z1
 Z3 OP;C;10.4a;61
 32
 b1
-Z4 !s110 1555714280
+Z4 !s110 1555715297
 !i10b 1
-Z5 !s108 1555714280.000000
+Z5 !s108 1555715297.000000
 !s90 -reportprogress|300|-work|network_lib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/package_networking.vhd|
 !s107 C:/Users/siddi/vlsi/project_ECE758/library/package_networking.vhd|
 !i113 1
@@ -34,32 +34,32 @@ Bbody
 Z8 DPx4 work 10 networking 0 22 >6H@HSeNIUL157ij7Am8Z1
 R1
 R2
-w1555714433
-Z9 8C:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd
-Z10 FC:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd
+Z9 w1555715250
+Z10 8C:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd
+Z11 FC:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd
 l0
 L12
-VAD5]^J[bzeVWLSn[WJ:0n0
-!s100 [dfVNSji28VS0X0?F^DKR1
+Z12 VAD5]^J[bzeVWLSn[WJ:0n0
+Z13 !s100 [dfVNSji28VS0X0?F^DKR1
 R3
 32
-!s110 1555714435
+R4
 !i10b 1
-!s108 1555714435.000000
-Z11 !s90 -reportprogress|300|-work|network_lib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd|
+R5
+Z14 !s90 -reportprogress|300|-work|network_lib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd|
 !s107 C:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd|
 !i113 1
 R6
 R7
-Z12 nbody
+Z15 nbody
 Etrial
-Z13 w1555711794
-Z14 DPx11 network_lib 10 networking 0 22 >6H@HSeNIUL157ij7Am8Z1
+R9
+Z16 DPx11 network_lib 10 networking 0 22 >6H@HSeNIUL157ij7Am8Z1
 R1
 R2
 R0
-Z15 8C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd
-Z16 FC:/Users/siddi/vlsi/project_ECE758/library/trial.vhd
+Z17 8C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd
+Z18 FC:/Users/siddi/vlsi/project_ECE758/library/trial.vhd
 l0
 L11
 VOIlicALmLP1_?8:8Y@aM^1
@@ -69,13 +69,13 @@ R3
 R4
 !i10b 1
 R5
-Z17 !s90 -reportprogress|300|-work|network_lib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd|
-Z18 !s107 C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd|
+Z19 !s90 -reportprogress|300|-work|network_lib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd|
+Z20 !s107 C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd|
 !i113 1
 R6
 R7
 Atrail_arch
-R14
+R16
 R1
 R2
 DEx4 work 5 trial 0 22 OIlicALmLP1_?8:8Y@aM^1
@@ -88,8 +88,8 @@ R3
 R4
 !i10b 1
 R5
-R17
-R18
+R19
+R20
 !i113 1
 R6
 R7

@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/siddi/vlsi/project_ECE758/library
 Eff_ent
-Z1 w1555712362
+Z1 w1555715250
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
@@ -21,21 +21,20 @@ VUXZa]KXFn8EXzTKX?8_=10
 !s100 gL7bG:72Wbz?6Fa4H?S;S0
 Z6 OP;C;10.4a;61
 32
-Z7 !s110 1555714280
+Z7 !s110 1555715297
 !i10b 1
-Z8 !s108 1555714280.000000
+Z8 !s108 1555715297.000000
 Z9 !s90 -reportprogress|300|-work|mylib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/gates_entity.vhd|
 Z10 !s107 C:/Users/siddi/vlsi/project_ECE758/library/gates_entity.vhd|
 !i113 1
 Z11 o-work mylib -2002 -explicit -O0
 Z12 tExplicit 1
 Aff_arch
-Z13 w1555713813
 R2
 R3
 DEx4 work 6 ff_ent 0 22 UXZa]KXFn8EXzTKX?8_=10
-Z14 8C:/Users/siddi/vlsi/project_ECE758/library/gates_architecture.vhd
-Z15 FC:/Users/siddi/vlsi/project_ECE758/library/gates_architecture.vhd
+Z13 8C:/Users/siddi/vlsi/project_ECE758/library/gates_architecture.vhd
+Z14 FC:/Users/siddi/vlsi/project_ECE758/library/gates_architecture.vhd
 l81
 L80
 V[WUfGM5fJ@1d_:^`Q19zE0
@@ -45,15 +44,15 @@ R6
 R7
 !i10b 1
 R8
-Z16 !s90 -reportprogress|300|-work|mylib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/gates_architecture.vhd|
-Z17 !s107 C:/Users/siddi/vlsi/project_ECE758/library/gates_architecture.vhd|
+Z15 !s90 -reportprogress|300|-work|mylib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/gates_architecture.vhd|
+Z16 !s107 C:/Users/siddi/vlsi/project_ECE758/library/gates_architecture.vhd|
 !i113 1
 R11
 R12
 Pgates
 R2
 R3
-w1555712452
+R1
 R0
 8C:/Users/siddi/vlsi/project_ECE758/library/gates_package.vhd
 FC:/Users/siddi/vlsi/project_ECE758/library/gates_package.vhd
@@ -93,12 +92,11 @@ R10
 R11
 R12
 Axnor_arch
-R13
 R2
 R3
-Z18 DEx4 work 9 gates_ent 0 22 Wf>^Q8=bzkB9k@Xc[^;9a3
+Z17 DEx4 work 9 gates_ent 0 22 Wf>^Q8=bzkB9k@Xc[^;9a3
+R13
 R14
-R15
 l60
 L59
 V1XnCGJhP5:hRdiT72UKkY2
@@ -108,18 +106,17 @@ R6
 R7
 !i10b 1
 R8
+R15
 R16
-R17
 !i113 1
 R11
 R12
 Axor_arch
-R13
 R2
 R3
-R18
+R17
+R13
 R14
-R15
 l50
 L49
 V::UV9Szn`=l`m]eff<>XX0
@@ -129,18 +126,17 @@ R6
 R7
 !i10b 1
 R8
+R15
 R16
-R17
 !i113 1
 R11
 R12
 Anor_arch
-R13
 R2
 R3
-R18
+R17
+R13
 R14
-R15
 l40
 L39
 VBfPIO;k@2Cm<mG3]bjRnb3
@@ -150,18 +146,17 @@ R6
 R7
 !i10b 1
 R8
+R15
 R16
-R17
 !i113 1
 R11
 R12
 Anand_arch
-R13
 R2
 R3
-R18
+R17
+R13
 R14
-R15
 l30
 L29
 VfN>;HoJB6LBi3;J?GSh?m2
@@ -171,18 +166,17 @@ R6
 R7
 !i10b 1
 R8
+R15
 R16
-R17
 !i113 1
 R11
 R12
 Aor_arch
-R13
 R2
 R3
-R18
+R17
+R13
 R14
-R15
 l20
 L19
 VdgDM`dlWKbM15<E8R0kcX0
@@ -192,18 +186,17 @@ R6
 R7
 !i10b 1
 R8
+R15
 R16
-R17
 !i113 1
 R11
 R12
 Aand_arch
-R13
-R18
+R17
 R2
 R3
+R13
 R14
-R15
 l10
 L9
 VWhD?LgejT<]jg3eo[VZ:C0
@@ -213,8 +206,8 @@ R6
 R7
 !i10b 1
 R8
+R15
 R16
-R17
 !i113 1
 R11
 R12
@@ -240,12 +233,11 @@ R10
 R11
 R12
 Anot_arch
-R13
 R2
 R3
 DEx4 work 8 not_gate 0 22 M^GHDdGV8l<W]lkRT>Ml:0
+R13
 R14
-R15
 l70
 L69
 V47`Da9;:oYlcTX41_blK93
@@ -255,8 +247,8 @@ R6
 R7
 !i10b 1
 R8
+R15
 R16
-R17
 !i113 1
 R11
 R12
