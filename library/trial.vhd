@@ -14,10 +14,11 @@ ENtity trial is
 end entity;
 
 Architecture trail_arch of trial is
-	signal clk : bit := '0';
+	signal int_clk : bit := '0';
 	 begin
-		clk <= (NOT clk) after 20 ns;
-		process(clk)
+		-- internal clock of block packet divider
+		int_clk <= (NOT int_clk) after 20 ns;
+		process(int_clk)
 			-- keep the track of the symbol index
 			variable sym_num : integer := 0;
 			begin	
