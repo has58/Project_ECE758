@@ -1,1 +1,56 @@
+C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd {0 {vcom -work network_lib -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-13) Recompile work.networking because work.networking has changed.
 
+** Error (suppressible): C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd(9): (vcom-1195) Cannot find expanded name "network_lib.networking".
+
+** Error: C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd(9): Unknown expanded name.
+** Error: C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd(11): VHDL Compiler exiting
+
+} {6.0 7.0 10.0 12.0} {}} C:/Users/siddi/vlsi/project_ECE758/library/gates_entity.vhd {1 {vcom -work mylib -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/library/gates_entity.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity gates_ent
+-- Compiling entity not_gate
+
+} {} {}} C:/Users/siddi/vlsi/project_ECE758/library/gates_architecture.vhd {1 {vcom -work mylib -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/library/gates_architecture.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling architecture and_arch of gates_ent
+-- Loading entity gates_ent
+-- Compiling architecture or_arch of gates_ent
+-- Loading entity gates_ent
+-- Compiling architecture nand_arch of gates_ent
+-- Loading entity gates_ent
+-- Compiling architecture nor_arch of gates_ent
+-- Loading entity gates_ent
+-- Compiling architecture xor_arch of gates_ent
+-- Loading entity gates_ent
+-- Compiling architecture xnor_arch of gates_ent
+-- Loading entity gates_ent
+-- Compiling architecture not_arch of not_gate
+-- Loading entity not_gate
+
+} {} {}} C:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd {1 {vcom -work network_lib -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package networking
+-- Compiling package body networking
+
+} {} {}} C:/Users/siddi/vlsi/project_ECE758/library/gates_package.vhd {1 {vcom -work mylib -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/library/gates_package.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package gates
+
+} {} {}}
