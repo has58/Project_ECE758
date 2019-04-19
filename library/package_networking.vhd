@@ -9,8 +9,8 @@ use IEEE.std_logic_1164.ALL;
 --use network_lib.networking.ALL;
 package networking is
 	-- Array represent a symbol index 0 to 7 and hold value of type std_logic
-	Type Symbol is array ( 7 downto 0) of std_logic;
-	--Type sym_id is array (9)
+	Type sym_wiht_id is array(9 downto 0) of std_logic;
+	Subtype Symbol is array( sym_with _id (7 downto 0)) of std_logic;
 	-- Array represent a package with index 0 to 7 
 	--depend on what symbol is that and hold 8 symbols
 	Type packet is array ( 7 downto 0) of symbol;
