@@ -76,3 +76,17 @@ Architecture not_arch of not_gate is
 					end loop;
 			end process;	
 	end architecture;
+
+Architecture ff_arch of ff_ent is
+	begin
+		--check for the rising edge
+		--if (((clk = '1') AND (clk'last_value = '0')) and (en = '1')) then 
+		process (clk)
+			begin
+				if (rising_edge(clk) and en = '1') then	
+					--perform transfer data from input to output
+					Q <= D;
+					QN <= (NOT D);
+				end if;
+			end process; 
+	end architecture;

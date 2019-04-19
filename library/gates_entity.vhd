@@ -25,3 +25,13 @@ Entity not_gate is
 	port (A : in std_logic_vector( N-1 downto 0) ;
 		O: out std_logic_vector);
 	end entity;
+
+library IEEE;
+use ieee.std_logic_1164.ALL;
+-- this is an entity for not gate
+Entity ff_ent is
+	generic (tprop : time := 8 ns; tsp : time := 2 ns; N : integer := 8);
+	port (  D   : in std_logic_vector( N-1 downto 0);
+		Q,QN   : out std_logic_vector( N-1 downto 0);
+		clk,en : in bit);
+	end entity;

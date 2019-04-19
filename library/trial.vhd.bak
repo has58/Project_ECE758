@@ -14,12 +14,12 @@ ENtity trial is
 end entity;
 
 Architecture trail_arch of trial is
-	signal clk : bit := '0';
+	signal int_clk : bit := '0';
 	 begin
-		clk <= (NOT clk) after 20 ns;
-		process(clk)
+		int_clk <= (NOT int_clk) after 20 ns;
+		process(int_clk)
 			-- keep the track of the symbol index
-			signal sym_num : integer := 0;
+			variable sym_num : integer := 0;
 			begin	
 				pack_sym (pac1, pac2, sym_num, sym1, sym2); 
 			end process;
