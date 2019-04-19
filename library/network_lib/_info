@@ -22,35 +22,35 @@ V2ZMYF]>7NWl[`gTd[X2L03
 Z3 OP;C;10.4a;61
 32
 b1
-Z4 !s110 1555664161
+!s110 1555664161
 !i10b 1
-Z5 !s108 1555664161.000000
+!s108 1555664161.000000
 !s90 -reportprogress|300|-work|network_lib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/package_networking.vhd|
 !s107 C:/Users/siddi/vlsi/project_ECE758/library/package_networking.vhd|
 !i113 1
-Z6 o-work network_lib -2002 -explicit -O0
-Z7 tExplicit 1
+Z4 o-work network_lib -2002 -explicit -O0
+Z5 tExplicit 1
 Bbody
-Z8 DPx4 work 10 networking 0 22 2ZMYF]>7NWl[`gTd[X2L03
+Z6 DPx4 work 10 networking 0 22 2ZMYF]>7NWl[`gTd[X2L03
 R1
 R2
-Z9 w1555663878
-Z10 8C:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd
-Z11 FC:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd
+Z7 w1555663878
+Z8 8C:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd
+Z9 FC:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd
 l0
 L12
-Z12 VhHRBG^7TAfQoiQncgTlgj3
-Z13 !s100 DFMlP9O:60LGD?TmUSc_H2
+Z10 VhHRBG^7TAfQoiQncgTlgj3
+Z11 !s100 DFMlP9O:60LGD?TmUSc_H2
 R3
 32
-R4
+Z12 !s110 1555664938
 !i10b 1
-R5
+Z13 !s108 1555664938.000000
 Z14 !s90 -reportprogress|300|-work|network_lib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd|
 !s107 C:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd|
 !i113 1
-R6
-R7
+R4
+R5
 Z15 nbody
 Etrial
 Z16 w1555658734
@@ -66,14 +66,14 @@ V[XQbQlMgFP0`B>T26WT8H0
 !s100 TEoFi:eM`g[E]Z<WGjS0P1
 R3
 32
-R4
+R12
 !i10b 1
-R5
+R13
 Z20 !s90 -reportprogress|300|-work|network_lib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd|
 Z21 !s107 C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd|
 !i113 1
-R6
-R7
+R4
+R5
 Atrail_arch
 R17
 R1
@@ -85,11 +85,11 @@ V[`gKVPIk>80UlkoonV4al3
 !s100 :FERdjbz0PjSdWST`2I<b2
 R3
 32
-R4
+R12
 !i10b 1
-R5
+R13
 R20
 R21
 !i113 1
-R6
-R7
+R4
+R5
