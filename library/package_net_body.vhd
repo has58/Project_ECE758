@@ -11,10 +11,17 @@ use network_lib.networking.ALL;
 
 package body networking is
 	procedure pack_sym( signal Pac1, Pac2 :  in packet;
-				signal sym_num : inout integer;
+				variable sym_num : inout integer;
 				signal sym1, sym2 : out symbol) is
 		begin
-			sym1 <= pac1(sym_num);
-			sym2 <= pac2(sym_num);
+			if (sym_num < 8) then
+				sym1 <= pac1(sym_num);
+				sym2 <= pac2(sym_num);
+			else 
+				sym_num := 0;
+				sym1 <= pac1(sym_num);
+				sym2 <= pac2(sym_num);
+			end if;
+				sym_num := sym_num + 1;
 		end pack_sym;
 end package body networking;
