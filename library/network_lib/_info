@@ -9,23 +9,65 @@ z2
 cModel Technology
 Z0 dC:/Users/siddi/vlsi/project_ECE758/library
 Pnetworking
-DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-w1555631280
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+w1555658998
 R0
 8C:/Users/siddi/vlsi/project_ECE758/library/package_networking.vhd
 FC:/Users/siddi/vlsi/project_ECE758/library/package_networking.vhd
 l0
-L3
-V2mRe<^Sa4;VbQdSdCBUj13
-!s100 Ez7ozK^6@MAY>:JaMVd4;2
-OP;C;10.4a;61
+L8
+V;zN87GLoQmPRRP8Bg0i5j0
+!s100 l``>j:Vb=CjV6PBRlEgcG3
+Z3 OP;C;10.4a;61
 32
-!s110 1555631518
+b1
+!s110 1555659120
 !i10b 1
-!s108 1555631518.000000
+Z4 !s108 1555659120.000000
 !s90 -reportprogress|300|-work|network_lib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/package_networking.vhd|
 !s107 C:/Users/siddi/vlsi/project_ECE758/library/package_networking.vhd|
 !i113 1
-o-work network_lib -2002 -explicit -O0
-tExplicit 1
+Z5 o-work network_lib -2002 -explicit -O0
+Z6 tExplicit 1
+Etrial
+Z7 w1555658734
+Z8 DPx11 network_lib 10 networking 0 22 ;zN87GLoQmPRRP8Bg0i5j0
+R1
+R2
+R0
+Z9 8C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd
+Z10 FC:/Users/siddi/vlsi/project_ECE758/library/trial.vhd
+l0
+L11
+V[XQbQlMgFP0`B>T26WT8H0
+!s100 TEoFi:eM`g[E]Z<WGjS0P1
+R3
+32
+Z11 !s110 1555659121
+!i10b 1
+R4
+Z12 !s90 -reportprogress|300|-work|network_lib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd|
+Z13 !s107 C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd|
+!i113 1
+R5
+R6
+Atrail_arch
+R8
+R1
+R2
+DEx4 work 5 trial 0 22 [XQbQlMgFP0`B>T26WT8H0
+l18
+L17
+V[`gKVPIk>80UlkoonV4al3
+!s100 :FERdjbz0PjSdWST`2I<b2
+R3
+32
+R11
+!i10b 1
+R4
+R12
+R13
+!i113 1
+R5
+R6

@@ -1,3 +1,8 @@
+-- Author: Haider Ali Siddiquee
+-- date : 4/18/2019
+-- time 2:09:43 PM
+-- gates_entity.vhd
+-- Contain all the entities for all type all gates
 library IEEE;
 use ieee.std_logic_1164.ALL;
 

@@ -1,3 +1,8 @@
+-- Author: Haider Ali Siddiquee
+-- date : 4/18/2019
+-- time 3:00:00 PM
+-- trial.vhd
+-- Contain all gates architecute
 library IEEE;
 use ieee.std_logic_1164.ALL;
 

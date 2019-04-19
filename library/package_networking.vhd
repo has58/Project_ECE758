@@ -1,3 +1,8 @@
+-- Author: Haider Ali Siddiquee
+-- date : 4/18/2019
+-- time 8:32:00 PM
+-- package_network.vhd
+-- Contain all the function/proceture declaration inside the package
 library IEEE;
 use IEEE.std_logic_1164.ALL;
 package networking is
@@ -6,5 +11,11 @@ package networking is
 	-- Array represent a package with index 0 to 7 
 	--depend on what symbol is that and hold 8 symbols
 	Type packet is array ( 7 downto 0) of symbol;
+	-- function that divide the packets into symbol
+	-- two packets are coming as a function
+	-- symbol number keep track which symbol of the the packet has been sent
+	procedure pack_sym( signal Pac1, Pac2 :  in std_logic_vector (63 downto 0);
+				signal symbol_number : inout integer;
+				signal sym : out Symbol);
 end package;
 	

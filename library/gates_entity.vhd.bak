@@ -1,3 +1,8 @@
+-- Author: Haider Ali Siddiquee
+-- date : 4/18/2019
+-- time 8:32:00 PM
+-- gates_entity.vhd
+-- Contain all the entities for all type all gates
 library IEEE;
 use ieee.std_logic_1164.ALL;
 
@@ -10,6 +15,10 @@ Entity gates_ent is
 	port (A, B: in std_logic_vector( N-1 downto 0) ;
 		O: out std_logic_vector);
 	end entity;
+
+
+library IEEE;
+use ieee.std_logic_1164.ALL;
 -- this is an entity for not gate
 Entity not_gate is
 	generic (delay : time := 10 ns; N : integer := 8);
