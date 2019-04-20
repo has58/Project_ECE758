@@ -1,4 +1,8 @@
-Library IEEE;
+-- Author: Haider Ali Siddiquee
+-- date : 4/19/2019
+-- time 3:50:00 PM
+-- packet_entity.vhd
+-- contain the entity of packet devider block;
 use IEEE.std_logic_1164.ALL;
 
 -- Here p1 and p2 are two packets

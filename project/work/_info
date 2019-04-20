@@ -11,31 +11,31 @@ dC:/Users/siddi/vlsi/project_ECE758/library
 Pblocks
 Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z1 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-w1555737706
+w1555738895
 Z2 dC:/Users/siddi/vlsi/project_ECE758/project
 8C:\Users\siddi\vlsi\project_ECE758\project\package_block.vhd
 FC:\Users\siddi\vlsi\project_ECE758\project\package_block.vhd
 l0
-L3
-V;dG8DOl5;E6VbNX_VSaAB1
-!s100 IWa5FFBzhT=7WWHG;USLW3
+L8
+VZ7[0?Z<JKa[G2d47lBA1o2
+!s100 NP1ITCQ_Q25>6S`HJFGC20
 Z3 OP;C;10.4a;61
 32
-Z4 !s110 1555738236
+Z4 !s110 1555738899
 !i10b 1
-Z5 !s108 1555738236.000000
+!s108 1555738899.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\siddi\vlsi\project_ECE758\project\package_block.vhd|
 !s107 C:\Users\siddi\vlsi\project_ECE758\project\package_block.vhd|
 !i113 1
-Z6 o-work work -2002 -explicit -O0
-Z7 tExplicit 1
+Z5 o-work work -2002 -explicit -O0
+Z6 tExplicit 1
 Epacket_divider
 w1555717459
 R0
 R1
 R2
-Z8 8C:\Users\siddi\vlsi\project_ECE758\project\packet_entity.vhd
-Z9 FC:\Users\siddi\vlsi\project_ECE758\project\packet_entity.vhd
+Z7 8C:\Users\siddi\vlsi\project_ECE758\project\packet_entity.vhd
+Z8 FC:\Users\siddi\vlsi\project_ECE758\project\packet_entity.vhd
 l0
 L7
 VmaVLg=]Z]Z28:oC8c?1<j1
@@ -45,20 +45,20 @@ R3
 !s110 1555717590
 !i10b 1
 !s108 1555717590.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\siddi\vlsi\project_ECE758\project\packet_entity.vhd|
-Z11 !s107 C:\Users\siddi\vlsi\project_ECE758\project\packet_entity.vhd|
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\siddi\vlsi\project_ECE758\project\packet_entity.vhd|
+Z10 !s107 C:\Users\siddi\vlsi\project_ECE758\project\packet_entity.vhd|
 !i113 1
+R5
 R6
-R7
 Apacket_divider_arch
 w1555737722
 DEx4 work 14 packet_divider 0 22 maVLg=]Z]Z28:oC8c?1<j1
-Z12 DPx5 mylib 5 gates 0 22 4k1dYKdN;O]@SHBH70nB71
+Z11 DPx5 mylib 5 gates 0 22 4k1dYKdN;O]@SHBH70nB71
 R0
 R1
-Z13 DPx11 network_lib 10 networking 0 22 >6H@HSeNIUL157ij7Am8Z1
-Z14 8C:\Users\siddi\vlsi\project_ECE758\project\packet_divider_arch.vhd
-Z15 FC:\Users\siddi\vlsi\project_ECE758\project\packet_divider_arch.vhd
+Z12 DPx11 network_lib 10 networking 0 22 >6H@HSeNIUL157ij7Am8Z1
+Z13 8C:\Users\siddi\vlsi\project_ECE758\project\packet_divider_arch.vhd
+Z14 FC:\Users\siddi\vlsi\project_ECE758\project\packet_divider_arch.vhd
 l12
 L8
 VI;eUgdhVEhTzZ7;D^^ZBU1
@@ -68,55 +68,55 @@ R3
 !s110 1555737017
 !i10b 1
 !s108 1555737017.000000
-Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\siddi\vlsi\project_ECE758\project\packet_divider_arch.vhd|
-Z17 !s107 C:\Users\siddi\vlsi\project_ECE758\project\packet_divider_arch.vhd|
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\siddi\vlsi\project_ECE758\project\packet_divider_arch.vhd|
+Z16 !s107 C:\Users\siddi\vlsi\project_ECE758\project\packet_divider_arch.vhd|
 !i113 1
+R5
 R6
-R7
 Epacket_divider_ent
 w1555737776
 R0
 R1
 R2
+R7
 R8
-R9
 l0
 L7
 Vmz>56=ZOfb?iUM4TmaQA11
 !s100 YAhhaJUOa^L2AFU5^[FnE0
 R3
 32
-R4
+!s110 1555738236
 !i10b 1
-R5
+!s108 1555738236.000000
+R9
 R10
-R11
 !i113 1
+R5
 R6
-R7
 Apacket_divider_arch
-w1555738233
+w1555738861
 DEx4 work 18 packet_divider_ent 0 22 mz>56=ZOfb?iUM4TmaQA11
-R12
+R11
 R0
 R1
+R12
 R13
 R14
-R15
-l13
-L9
-VJ4GoS<Q]nDP<47BzbQNAC0
-!s100 9EBWPO1@dcBE;17a3P;d91
+l18
+L14
+V]d7fN@0=S^m:>RO3Iel=H3
+!s100 >R:FPJGLPFRbA>cMEVD3K3
 R3
 32
 R4
 !i10b 1
-R5
+Z17 !s108 1555738898.000000
+R15
 R16
-R17
 !i113 1
+R5
 R6
-R7
 Epacket_ent
 w1555625989
 R0
@@ -136,8 +136,8 @@ R3
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/project/packet_entity.vhd|
 !s107 C:/Users/siddi/vlsi/project_ECE758/project/packet_entity.vhd|
 !i113 1
+R5
 R6
-R7
 Etrail
 w1555624413
 R0
@@ -158,13 +158,13 @@ R3
 Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd|
 Z21 !s107 C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd|
 !i113 1
+R5
 R6
-R7
 Etrial
 Z22 w1555624517
 R0
 R1
-R12
+R11
 R2
 R18
 R19
@@ -174,19 +174,19 @@ V:;j5:Q18TAVlFzcY;]d>d0
 !s100 ^SU0EJ`Ika2l=;aSZ8fE=2
 R3
 32
-R4
+Z23 !s110 1555738898
 !i10b 1
-R5
+R17
 R20
 R21
 !i113 1
+R5
 R6
-R7
 Atrial_arch
 DEx5 mylib 9 gates_ent 0 22 Wf>^Q8=bzkB9k@Xc[^;9a3
 R0
 R1
-R12
+R11
 DEx4 work 5 trial 0 22 :;j5:Q18TAVlFzcY;]d>d0
 l14
 L12
@@ -194,11 +194,11 @@ V0ENclQ>`i3z_WE6KfWmQI2
 !s100 mW1O3VRPNIZRcllQ@EZj73
 R3
 32
-R4
+R23
 !i10b 1
-R5
+R17
 R20
 R21
 !i113 1
+R5
 R6
-R7

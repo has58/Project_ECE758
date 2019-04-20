@@ -1,3 +1,8 @@
+-- Author: Haider Ali Siddiquee
+-- date : 4/19/2019
+-- time 4:40:00 PM
+-- package_entity.vhd
+-- contain the package of packet devider block;
 library IEEE;
 use IEEE.std_logic_1164.ALL;
 package blocks is

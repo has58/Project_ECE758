@@ -1,3 +1,8 @@
+-- Author: Haider Ali Siddiquee
+-- date : 4/19/2019
+-- time 5:10:00 PM
+-- packet_divider_arch.vhd
+-- contain the architecture of package devider block;
 library mylib;
 library network_lib;
 Library IEEE;

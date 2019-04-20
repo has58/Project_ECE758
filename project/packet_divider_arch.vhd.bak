@@ -1,3 +1,8 @@
+-- Author: Haider Ali Siddiquee
+-- date : 4/19/2019
+-- time 6:00:00 PM
+-- packet_divider_arch.vhd
+-- contain the architecture of package devider block;
 library mylib;
 library network_lib;
 Library IEEE;
@@ -12,7 +17,7 @@ Architecture packet_divider_arch of packet_divider_ent is
 	--for ALL : packet_divider use entity packet_divider_ent()
 	begin
 		-- tranfering data from input to the symbolic packets
-		pc1(0) <= p1(7 downto 0);
+		--pc1(0) <= p1(7 downto 0);
 		-- create a funtion that divide the pcket into symbols
 		--con_sig <= '0';
 		--con_sig <= '1' after 20 ns;
