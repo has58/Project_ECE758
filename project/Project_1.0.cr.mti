@@ -1,10 +1,9 @@
-C:/Users/siddi/vlsi/project_ECE758/project/packet_divider_arch.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/project/packet_divider_arch.vhd
+C:/Users/siddi/vlsi/project_ECE758/project/package_block.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\siddi\vlsi\project_ECE758\project\package_block.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling architecture packet_divider_arch of packet_divider
--- Loading entity packet_divider
+-- Compiling package blocks
 
 } {} {}} C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -16,12 +15,12 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling architecture trial_arch of trial
 -- Loading entity gates_ent
 
-} {} {}} C:/Users/siddi/vlsi/project_ECE758/project/packet_entity.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/project/packet_entity.vhd
+} {} {}} C:/Users/siddi/vlsi/project_ECE758/project/packet_entity.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\siddi\vlsi\project_ECE758\project\packet_entity.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity packet_divider
+-- Compiling entity packet_divider_ent
 
 } {} {}} C:/Users/siddi/vlsi/project_ECE758/project/Encoder.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/project/Encoder.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015

@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/siddi/vlsi/project_ECE758/library
 Eff_ent
-Z1 w1555715619
+Z1 w1555716253
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
@@ -21,9 +21,9 @@ VUXZa]KXFn8EXzTKX?8_=10
 !s100 gL7bG:72Wbz?6Fa4H?S;S0
 Z6 OP;C;10.4a;61
 32
-Z7 !s110 1555715698
+Z7 !s110 1555716507
 !i10b 1
-Z8 !s108 1555715698.000000
+Z8 !s108 1555716507.000000
 Z9 !s90 -reportprogress|300|-work|mylib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/gates_entity.vhd|
 Z10 !s107 C:/Users/siddi/vlsi/project_ECE758/library/gates_entity.vhd|
 !i113 1
