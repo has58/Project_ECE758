@@ -85,6 +85,9 @@ Architecture ff_arch of ff_ent is
 			begin
 				if (rising_edge(clk) and en = '1') then	
 					--perform transfer data from input to output
+					Q <= D;
+					QN <= (NOT D);
 				end if;
 			end process; 
 	end architecture;
+end package body gates;

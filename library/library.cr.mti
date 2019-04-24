@@ -1,4 +1,4 @@
-C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd {1 {vcom -work network_lib -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd
+C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd {0 {vcom -work network_lib -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -6,8 +6,13 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package networking
 -- Compiling entity trial
 -- Compiling architecture trail_arch of trial
+** Error: C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd(25): (vcom-1047) Actual (signal "sym1") for class variable formal "sym1" is not a variable.
 
-} {} {}} C:/Users/siddi/vlsi/project_ECE758/library/gates_entity.vhd {1 {vcom -work mylib -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/library/gates_entity.vhd
+** Error: C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd(25): (vcom-1047) Actual (signal "sym2") for class variable formal "sym2" is not a variable.
+
+** Error: C:/Users/siddi/vlsi/project_ECE758/library/trial.vhd(27): VHDL Compiler exiting
+
+} {9.0 10.0 11.0 12.0 13.0 14.0} {}} C:/Users/siddi/vlsi/project_ECE758/library/gates_entity.vhd {1 {vcom -work mylib -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/library/gates_entity.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -38,14 +43,6 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling architecture ff_arch of ff_ent
 -- Loading entity ff_ent
 
-} {} {}} C:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd {1 {vcom -work network_lib -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package networking
--- Compiling package body networking
-
 } {} {}} C:/Users/siddi/vlsi/project_ECE758/library/gates_package.vhd {1 {vcom -work mylib -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/library/gates_package.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
@@ -53,11 +50,12 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package std_logic_1164
 -- Compiling package gates
 
-} {} {}} C:/Users/siddi/vlsi/project_ECE758/library/package_networking.vhd {1 {vcom -work network_lib -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/library/package_networking.vhd
+} {} {}} C:/Users/siddi/vlsi/project_ECE758/library/package_net_body.vhd {1 {vcom -work network_lib -2002 -explicit -stats=none {C:\Users\siddi\vlsi\project_ECE758\library\package_net_body.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling package networking
+-- Compiling package body networking
+-- Loading package networking
 
 } {} {}}
