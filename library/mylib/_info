@@ -21,9 +21,9 @@ VUXZa]KXFn8EXzTKX?8_=10
 !s100 gL7bG:72Wbz?6Fa4H?S;S0
 Z6 OP;C;10.4a;61
 32
-Z7 !s110 1556087113
+Z7 !s110 1556688943
 !i10b 1
-Z8 !s108 1556087113.000000
+Z8 !s108 1556688943.000000
 Z9 !s90 -reportprogress|300|-work|mylib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/gates_entity.vhd|
 Z10 !s107 C:/Users/siddi/vlsi/project_ECE758/library/gates_entity.vhd|
 !i113 1
@@ -63,9 +63,9 @@ V4k1dYKdN;O]@SHBH70nB71
 !s100 WR8dVbTTzahPSk`fD>Nc63
 R6
 32
-R7
+Z18 !s110 1556688944
 !i10b 1
-R8
+Z19 !s108 1556688944.000000
 !s90 -reportprogress|300|-work|mylib|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/gates_package.vhd|
 !s107 C:/Users/siddi/vlsi/project_ECE758/library/gates_package.vhd|
 !i113 1
@@ -96,7 +96,7 @@ Axnor_arch
 R13
 R2
 R3
-Z18 DEx4 work 9 gates_ent 0 22 Wf>^Q8=bzkB9k@Xc[^;9a3
+Z20 DEx4 work 9 gates_ent 0 22 Wf>^Q8=bzkB9k@Xc[^;9a3
 R14
 R15
 l60
@@ -117,7 +117,7 @@ Axor_arch
 R13
 R2
 R3
-R18
+R20
 R14
 R15
 l50
@@ -138,7 +138,7 @@ Anor_arch
 R13
 R2
 R3
-R18
+R20
 R14
 R15
 l40
@@ -159,7 +159,7 @@ Anand_arch
 R13
 R2
 R3
-R18
+R20
 R14
 R15
 l30
@@ -180,7 +180,7 @@ Aor_arch
 R13
 R2
 R3
-R18
+R20
 R14
 R15
 l20
@@ -199,7 +199,7 @@ R11
 R12
 Aand_arch
 R13
-R18
+R20
 R2
 R3
 R14
@@ -263,22 +263,41 @@ R12
 Ptype_conv
 R2
 R3
-w1556092064
+Z21 w1556684723
 R0
-8C:\Users\siddi\vlsi\project_ECE758\library\type_convrsion.vhd
-FC:\Users\siddi\vlsi\project_ECE758\library\type_convrsion.vhd
+Z22 8C:/Users/siddi/vlsi/project_ECE758/library/type_convrsion.vhd
+Z23 FC:/Users/siddi/vlsi/project_ECE758/library/type_convrsion.vhd
 l0
-L4
-VRCDCmk`Gd]5Lh_4iVGeo02
-!s100 RSR4_EDh0QKemn56=ZQDL0
+L9
+V5CB@cT8o`m9HIXRYhlahZ0
+!s100 [nJP4]:zV>hzMibC0Jk=K3
 R6
 32
 b1
-!s110 1556092065
+R18
 !i10b 1
-!s108 1556092065.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\siddi\vlsi\project_ECE758\library\type_convrsion.vhd|
-!s107 C:\Users\siddi\vlsi\project_ECE758\library\type_convrsion.vhd|
+R19
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/project_ECE758/library/type_convrsion.vhd|
+Z25 !s107 C:/Users/siddi/vlsi/project_ECE758/library/type_convrsion.vhd|
 !i113 1
-o-work work -2002 -explicit -O0
+Z26 o-work work -2002 -explicit -O0
 R12
+Bbody
+Z27 DPx4 work 9 type_conv 0 22 5CB@cT8o`m9HIXRYhlahZ0
+R2
+R3
+l0
+L18
+Z28 V>[U:z?^HVefXAU0XPXNNj1
+Z29 !s100 TFdDB12:NmFHZ4F;nWG?A1
+R6
+32
+R18
+!i10b 1
+R19
+R24
+R25
+!i113 1
+R26
+R12
+Z30 nbody

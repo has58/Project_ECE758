@@ -15,7 +15,7 @@ package networking is
 --	type symbol is array (7 downto 0) of std_logic;
 	subtype symbol is bit_vector ( 7 downto 0);
 	subtype id is bit_vector (11 downto 8);
-	subtype symbol_id is bit_vector (11 downto 0);
+	subtype symbol_id is bit_vector (15 downto 0);
 --	-- Array represent a symbol index 0 to 7 and hold value of type std_logic
 --	--******Subtype symbol is array(symbol_id range 7 downto 0) of std_logic;
 --	-- Array represent a package with index 0 to 7 
@@ -32,5 +32,10 @@ package networking is
 	procedure pack_sym( signal Pac1, Pac2 :  in packet;
 				variable sym_num : in  integer;
 				variable sym1, sym2 : out Symbol);
+	procedure sym_pack( signal int_pack1, int_pack2 :  out packet;
+				variable sym_num : in  integer;
+				variable sym1, sym2 : in Symbol);
+
+
 
 end networking;

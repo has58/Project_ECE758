@@ -4,6 +4,8 @@
 -- package_entity.vhd
 -- contain the package of packet devider block;
 library IEEE;
+library network_lib;
+use network_lib.networking.ALL;
 use IEEE.std_logic_1164.ALL;
 package blocks is
 	component packet_divider is 

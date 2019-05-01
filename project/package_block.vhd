@@ -11,7 +11,7 @@ package blocks is
 	component packet_divider is 
 		port( Pac1, Pac2 : in packet;
 			sym_id2, sym_id1 : out symbol_id;
-			con_sig : out bit;
+			con_sig : inout bit;
 			clk,enable : in bit );
 		end component;
 end package; 

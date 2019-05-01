@@ -1,14 +1,4 @@
-C:/Users/siddi/vlsi/project_ECE758/project/encoder_ent.vhd {0 {vcom -work work -2002 -explicit -stats=none {C:\Users\siddi\vlsi\project_ECE758\project\encoder_ent.vhd}
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
-** Error: (vcom-11) Could not find ieee.srd_logic_1164.
-
-** Error (suppressible): C:\Users\siddi\vlsi\project_ECE758\project\encoder_ent.vhd(2): (vcom-1195) Cannot find expanded name "ieee.srd_logic_1164".
-
-** Error: C:\Users\siddi\vlsi\project_ECE758\project\encoder_ent.vhd(2): Unknown expanded name.
-** Error: C:\Users\siddi\vlsi\project_ECE758\project\encoder_ent.vhd(4): VHDL Compiler exiting
-
-} {4.0 5.0 8.0 10.0} {}} C:/Users/siddi/vlsi/project_ECE758/project/package_block.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\siddi\vlsi\project_ECE758\project\package_block.vhd}
+C:/Users/siddi/vlsi/project_ECE758/project/package_block.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/project/package_block.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -16,7 +6,7 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package networking
 -- Compiling package blocks
 
-} {} {}} C:/Users/siddi/vlsi/project_ECE758/project/packet_divider_arch.vhd {0 {vcom -work work -2002 -explicit -stats=none {C:\Users\siddi\vlsi\project_ECE758\project\packet_divider_arch.vhd}
+} {} {}} C:/Users/siddi/vlsi/project_ECE758/project/package_comp.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/project/package_comp.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -26,14 +16,11 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package NUMERIC_STD
 -- Loading package networking
 -- Loading package gates
+-- Loading package type_conv
 -- Compiling architecture packet_divider_arch of packet_divider_ent
 -- Loading entity packet_divider_ent
-** Error: C:\Users\siddi\vlsi\project_ECE758\project\packet_divider_arch.vhd(41): (vcom-1394) Type conversion operand must be a single expression that is not a range.
 
-** Error: C:\Users\siddi\vlsi\project_ECE758\project\packet_divider_arch.vhd(41): Illegal type conversion from std.STANDARD.INTEGER to std.STANDARD.BIT_VECTOR (numeric to array).
-** Error: C:\Users\siddi\vlsi\project_ECE758\project\packet_divider_arch.vhd(47): VHDL Compiler exiting
-
-} {13.0 14.0 15.0 17.0} {}} C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd
+} {} {}} C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -50,5 +37,6 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package std_logic_1164
 -- Loading package networking
 -- Compiling entity packet_divider_ent
+-- Compiling entity packet_comb_ent
 
 } {} {}}

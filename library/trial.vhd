@@ -7,10 +7,12 @@ library IEEE;
 Use IEEE.std_logic_1164.ALL;
 library network_lib;
 use network_lib.networking.ALL;
+library mylib;
+use mylib.type_conv.all;
 
 ENtity trial is
-	port (sym1, sym2 : out symbol;
-		pac1, pac2: in packet);
+	port (int : in integer;
+		output:out bit_vector(3 downto 0));
 end entity;
 
 Architecture trail_arch of trial is
@@ -20,8 +22,8 @@ Architecture trail_arch of trial is
 		int_clk <= (NOT int_clk) after 20 ns;
 		process(int_clk)
 			-- keep the track of the symbol index
-			variable sym_num : integer := 0;
+			--variable sym_num : integer := 0;
 			begin	
-				pack_sym (pac1, pac2, sym_num, sym1, sym2); 
+				output <= int_bit_vector(int,4); 
 			end process;
 end architecture;
