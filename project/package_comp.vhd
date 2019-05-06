@@ -15,7 +15,7 @@ use mylib.type_conv.all;
 use IEEE.std_logic_1164.ALL;
 --use work.blocks.ALL;
 
-Architecture packet_divider_arch of packet_divider_ent is
+Architecture packet_divider_arch of packet_divider_ent1 is
 	--for ALL : packet_divider use entity packet_divider_ent()
 	begin
 		-- tranfering data from input to the symbolic packets

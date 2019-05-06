@@ -8,10 +8,26 @@ library network_lib;
 use network_lib.networking.ALL;
 use IEEE.std_logic_1164.ALL;
 package blocks is
-	component packet_divider is 
+	component packet_divider is
 		port( Pac1, Pac2 : in packet;
 			sym_id2, sym_id1 : out symbol_id;
 			con_sig : inout bit;
 			clk,enable : in bit );
-		end component;
-end package; 
+	end component;
+	component packet_comb is
+		port( Pac1, Pac2 : out packet;
+		sym_id2, sym_id1 : in symbol_id;
+		con_sig : inout bit;
+		clk,enable : in bit);
+	end component;
+	component encoder is
+		port(a,b:in symbol_id;
+			output:out symbol_id;
+			clk,enable: in bit);
+	end component;
+	component decoder is
+		port(a,b:in symbol_id;
+		output1,output2:out symbol_id;
+		clk,enable: in bit);
+	end component;
+end package;
