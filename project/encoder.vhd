@@ -1,4 +1,3 @@
-
 -----Pengxiang Zhao component of addition encoder------
 library mylib;
 library network_lib;
@@ -11,14 +10,14 @@ use IEEE.std_logic_1164.ALL;
 entity Add_Encoder_Component1 is
 	port(a,b:in symbol_id;
 		output:out symbol_id;
-		clk,enable: in bit);
+		clk,enable,en_dc: in bit);
 end Add_Encoder_Component1;
 
 architecture behv of Add_Encoder_Component1 is
 begin	
 	process(a,b,clk,enable)
 	begin
-	if (clk'event and clk'last_value = '0' and enable = '1') then
+	if (clk'event and clk'last_value = '1' and enable = '1' and en_dc = '0') then
 		output<=a xor b;
 	end if;
 	end process;	

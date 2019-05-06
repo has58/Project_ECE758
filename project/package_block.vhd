@@ -12,22 +12,22 @@ package blocks is
 		port( Pac1, Pac2 : in packet;
 			sym_id2, sym_id1 : out symbol_id;
 			con_sig : inout bit;
-			clk,enable : in bit );
+			clk,enable,en_dc : in bit );
 	end component;
 	component packet_comb is
 		port( Pac1, Pac2 : out packet;
-		sym_id2, sym_id1 : in symbol_id;
-		con_sig : inout bit;
-		clk,enable : in bit);
+		sym_id1, sym_id2 : in symbol_id;
+		--con_sig : inout bit;
+		clk,enable,en_dc : in bit);
 	end component;
 	component encoder is
 		port(a,b:in symbol_id;
 			output:out symbol_id;
-			clk,enable: in bit);
+			clk,enable,en_dc: in bit);
 	end component;
 	component decoder is
 		port(a,b:in symbol_id;
 		output1,output2:out symbol_id;
-		clk,enable: in bit);
+		clk,enable,en_dc: in bit);
 	end component;
 end package;

@@ -1,4 +1,12 @@
-C:/Users/siddi/vlsi/project_ECE758/project/decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\siddi\vlsi\project_ECE758\project\decoder.vhd}
+C:/Users/siddi/vlsi/project_ECE758/project/package_block.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\siddi\vlsi\project_ECE758\project\package_block.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package networking
+-- Compiling package blocks
+
+} {} {}} C:/Users/siddi/vlsi/project_ECE758/project/decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\siddi\vlsi\project_ECE758\project\decoder.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -9,14 +17,6 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity Add_Decoder_Component
 -- Compiling architecture behv of Add_Decoder_Component
 
-} {} {}} C:/Users/siddi/vlsi/project_ECE758/project/package_block.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\siddi\vlsi\project_ECE758\project\package_block.vhd}
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package networking
--- Compiling package blocks
-
 } {} {}} C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/project/trail_file.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
@@ -26,19 +26,6 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity trial
 -- Compiling architecture trial_arch of trial
 -- Loading entity gates_ent
-
-} {} {}} C:/Users/siddi/vlsi/project_ECE758/project/packet_divider_arch.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\siddi\vlsi\project_ECE758\project\packet_divider_arch.vhd}
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package networking
--- Loading package gates
--- Loading package type_conv
--- Compiling architecture packet_divider_arch of packet_divider_ent
--- Loading entity packet_divider_ent
--- Compiling architecture packet_comb_arch of packet_comb_ent
--- Loading entity packet_comb_ent
 
 } {} {}} C:/Users/siddi/vlsi/project_ECE758/project/encoder.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\siddi\vlsi\project_ECE758\project\encoder.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -51,7 +38,7 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity Add_Encoder_Component1
 -- Compiling architecture behv of Add_Encoder_Component1
 
-} {} {}} C:/Users/siddi/vlsi/project_ECE758/project/packet_entity.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/siddi/vlsi/project_ECE758/project/packet_entity.vhd
+} {} {}} C:/Users/siddi/vlsi/project_ECE758/project/packet_entity.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\siddi\vlsi\project_ECE758\project\packet_entity.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -59,5 +46,21 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package networking
 -- Compiling entity packet_divider_ent
 -- Compiling entity packet_comb_ent
+
+} {} {}} C:/Users/siddi/vlsi/project_ECE758/project/Net_code.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\siddi\vlsi\project_ECE758\project\Net_code.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package networking
+-- Loading package gates
+-- Loading package type_conv
+-- Loading package blocks
+-- Compiling entity Net_code_ent
+-- Compiling architecture Net_code_arch of Net_code_ent
+-- Loading entity packet_divider_ent
+-- Loading entity packet_comb_ent
+-- Loading entity Add_Encoder_Component1
+-- Loading entity Add_Decoder_Component
 
 } {} {}}

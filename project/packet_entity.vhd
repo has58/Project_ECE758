@@ -15,7 +15,8 @@ Entity packet_divider_ent is
 	port( Pac1, Pac2 : in packet;
 		sym_id2, sym_id1 : out symbol_id;
 		con_sig : inout bit;
-		clk,enable : in bit);
+		clk,enable : in bit;
+		en_dc : in bit);
 end entity; 
 
 
@@ -31,6 +32,6 @@ use IEEE.std_logic_1164.ALL;
 Entity packet_comb_ent is 
 	port( Pac1, Pac2 : out packet;
 		sym_id2, sym_id1 : in symbol_id;
-		con_sig : inout bit;
-		clk,enable : in bit);
+		--con_sig : inout bit;
+		clk,enable, en_dc : in bit);
 end entity; 

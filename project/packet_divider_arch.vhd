@@ -25,7 +25,7 @@ Architecture packet_divider_arch of packet_divider_ent is
 			variable sym1, sym2 : symbol;
 			variable id1: id;
 			begin
-				if (clk'event and clk'last_value = '0' and enable = '1' and con_sig = '0') then
+				if (clk'event and clk'last_value = '0' and enable = '1' and con_sig = '0' and en_dc = '0') then
 					if (sym_num < 8) then
 						pack_sym(pac1, pac2, sym_num, sym1, sym2);
 						sym_num := sym_num + 1;
@@ -65,15 +65,15 @@ Architecture packet_comb_arch of packet_comb_ent is
 			variable sym1, sym2 : symbol;
 			--variable id1: id;
 			begin
-				if (clk'event and clk'last_value = '0' and enable = '1') then
-						sym_num := bit_vector_int(sym_id1(11 downto 8));
+				if (clk'event and clk'last_value = '0' and enable = '1' and en_dc = '1') then
+						sym_num := bit_vector_int(sym_id1(10 downto 8));
 						sym1 := sym_id1(7 downto 0);
 						sym2 := sym_id2(7 downto 0);
 						if (sym_num = 7 ) then 
  							sym_pack(int_pack1, int_pack2, sym_num, sym1, sym2);		
-							con_sig <= '1';
+							--con_sig <= '1';
 							pac1 <= int_pack1 after 50 ns;
-							pac2 <= int_pack2 after 50 ns ;
+							pac2 <= int_pack2 after 50 ns;
 						else 
 							sym_pack(int_pack1, int_pack2, sym_num, sym1, sym2);
 						end if;		
