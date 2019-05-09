@@ -21,7 +21,4 @@ package networking is
 	procedure sym_pack( signal int_pack1, int_pack2 :  out packet;
 				variable sym_num : in  integer;
 				variable sym1, sym2 : in Symbol);
-
-
-
 end networking;
